@@ -1,0 +1,552 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Amiko";
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.Head{
+    margin-top: 0px;
+    background-color: #ffffff;
+}
+.Email_id{
+    height: 46px;
+    width: 867px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 10px 110px;
+}
+.Email_id p{
+    color: black;
+}
+#navbar.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: #fff;  You can set a background color to make the navbar visible */
+    z-index: 100;
+}
+  
+#navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* position: sticky; */
+    /* position: fixed; */
+    top : 0;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0px 0px 10px -6px rgba(20, 20, 20, 20);
+}
+.home{
+    color: black;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: auto;  /* Adjust height automatically */
+    max-height: 50px; /* Set a max height */
+    width: auto; /* Maintain aspect ratio */
+    max-width: 250px;
+    margin-left: 100px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.home{
+    height: 18px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+.hero_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home ul li{
+    color: #969696;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: -webkit-match-parent;
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+.color-change:hover{
+    color: #E30000;
+}
+a{
+    text-decoration: none;
+    color: #969696;
+
+}
+.Home_f{
+    color: #E30000;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+/* Home conterner */
+
+.homeContainer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+.width50 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.hero_hedi{
+    width: 100%;
+    /* margin-left: -58px; */
+    color: #e30000;
+    font: 700 58px / 64px "Lexend Deca", sans-serif;
+}
+h1 {
+    display: block;
+    margin-left: 25px;
+    font-size: 2.2em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.width50 p {
+    margin-left: 25px;
+    width: 90%;
+    margin-top: 17px;
+    font: 700 21.2px / 30px "Lexend Deca", sans-serif;
+}
+.width50 img {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    position: relative;
+    opacity: 0;
+    transform: scale(0.2);
+    transition: all 0.9s 100ms ease-in-out;
+    margin-top: -40px;
+}
+.width50 img.show{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Secation 2 */
+section {
+    display: block;
+    unicode-bidi: isolate;
+    
+}
+.Products_Heading{
+    padding-top: 80px;
+    padding-bottom:0px;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-head {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+    font-size: 2.6rem;
+    letter-spacing: 0.1rem;
+    letter-spacing: 0;
+
+}
+.mane{
+    display: warp;
+}
+.Products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.product_first {
+    height: 255px;
+    width: calc(80% + 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the content */
+    padding: 20px 50px;
+    transition: all 0.7s ease-in-out;
+    margin: 0 auto 20px; /* Centers horizontally */
+    transform: scale(1);
+    opacity: 1;
+}
+.productone {
+    width: 30%; /* Proper width */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers image properly */
+}
+
+.pro_img img {
+    height: 180px;
+    width: 180px;
+    object-fit: contain; /* Ensures the image is proportionate */
+    display: block;
+}
+
+.producttwo {
+    width: 70%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers text inside */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(37, 46, 72, 0.1);
+    min-height: 180px;
+    overflow: hidden;
+    padding: 0px 30px;
+    position: relative;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.border h2 {
+    color: #252e48;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center; /* Centers text */
+}
+
+.border p {
+    color: #545f7e;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.Products_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:100px;
+}
+.product_first_right {
+    height: 255px;
+    width: calc(80% + 100px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Distributes space evenly */
+    padding: 20px 50px;
+    flex-direction: row-reverse;
+    transition: all 0.7s ease-in-out;
+    margin: 0 auto ; /* Centers horizontally */
+}
+
+.productone_right {
+    width: 30%; /* Increased width for better proportion */
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers image properly */
+    margin: 0; /* Remove excess margin */
+}
+
+.pro_img_right img {
+    height: 180px;
+    width: 180px;
+    display: block;
+    object-fit: contain; /* Ensures image fits properly */
+}
+
+.producttwo_right {
+    width: 70%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers text inside */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(37, 46, 72, 0.1);
+    min-height: 180px;
+    overflow: hidden;
+    padding: 0px 30px;
+    position: relative;
+    font-family: "Lexend Deca", sans-serif;
+}
+.product_first, .product_first_right {
+    transition: transform 0.7s ease-in-out !important;
+}
+
+/* Our jonrney */
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.journey {
+    padding: 0 100px;
+}
+.section_journe h1 {
+    display: block;
+    font-size:3rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.section-heading {
+    /* text-transform: uppercase; */
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+    font-size: 2.6rem;
+    letter-spacing: 0.1rem;
+    letter-spacing: 0;
+}
+.our_juurne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our_juurne img {
+    margin-top: 20px;
+    height: 480px;
+    width: 85%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.journey > div > img {
+    width: 100%;
+}
+
+/* contact */
+#contact {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+}
+
+.section_contact {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center horizontally */
+    min-height: 100vh;
+}
+
+.contact_as35 {
+    height: 470px;
+    width: 35%;
+    padding: 20px;
+    max-width: 350px;
+    background-color: #eb3424;
+}
+
+.contact_heading {
+    color: white;
+    font: 600 25px / 35px "Lexend Deca", sans-serif;
+    margin-bottom: 20px;
+}
+
+.open {
+    font: 400 17px / 20px "Lexend Deca", sans-serif;
+    color: rgb(212, 208, 208);
+}
+
+/* Make .flex align items horizontally */
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add some spacing between icon and text */
+    margin: 25px 50px 10px 25px;
+}
+
+.contactIcon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactIcon span.round {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactInfo {
+    color: #ffffff;
+    font: 500 16px / 17px "Lexend Deca", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.contacts a {
+    color: white;
+    text-decoration: none;
+}
+.contact_as65 {
+    height: 470px;
+    width: 65%;
+    padding: 20px;
+    box-shadow: 0 12px 40px rgba(37, 46, 72, 0.1);
+}
+
+.contactHeading {
+    font: 600 26px / 30px "Lexend Deca", sans-serif;
+    margin-bottom: 20px;
+}
+.formName {
+    font: 500 18px / 20px "Lexend Deca", sans-serif;
+    width: 100%;
+    margin: 10px 0;
+}
+.newFormInput {
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    border: none;
+    font: 500 18px / 20px "Lexend Deca", sans-serif;
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+    outline: none;
+}
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.newFormMessage {
+    font: 500 18px / 20px "Lexend Deca", sans-serif;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(216, 214, 214);
+    resize: none;
+    height: 140px;
+    outline: none;
+}
+.newFormSubmit {
+    width: fit-content;
+    display: block;
+    padding: 10px 15px;
+    margin: 10px 0;
+    color: white;
+    background: #eb3424;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font: 400 17px / 20px "Lexend Deca", sans-serif;
+}
+/* ------------------------------------------footer---------------------------------------------------- */
+.footer {
+    background: #1e2445;
+    width: 100%;
+}
+.footer .main-footer {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    padding: 40px 80px;
+    gap: 30px;
+}
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer .main-footer .social-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-container img{
+    width: 200px;
+    height: 37px;
+}
+.social-container p{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 5px 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.social-links{
+    height: 34px;
+    width: 168px;
+}
+.social-links img{
+    height: 30px;
+    width: 30px;
+    margin: 2.5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-links{
+    margin-top: -50px;
+    margin-left: 30px;
+}
+.footer-links p a{
+    font-size: 12px;
+    color: #ffffff;
+}
+.footer .endbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #131830;
+    padding: 10px 80px;
+}
+.endbar span{
+    color: #56619d;
+    font-size: 1.7rem;
+}
+.endbar p{
+    font-size: 1.4rem;
+    color: white;
+}
+.footer .endbar > p:nth-child(2) {
+    color: #56619d;
+    font-size: 1.5rem;
+}
