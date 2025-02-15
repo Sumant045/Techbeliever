@@ -1,0 +1,215 @@
+
+@media only screen and (max-width: 868px){
+    .Head{
+        display:none;
+    }
+    #navbar{
+        width: 100%;
+        align-content: start;
+        margin: 0px;
+    }
+    .logo img {
+        max-width: 210px; /* Smaller logo for medium screens */
+        max-height: 42px;
+        margin-left: 0px;
+    }
+    .home{
+        display: none;
+    }
+    .homeContainer {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .width50{
+        width: 100%;
+    }
+    .width50 img{
+        margin-top: 10px;
+    }
+    .width50 h1 {
+        font: 700 36px / 44px "Lexend Deca", sans-serif;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        margin-top: 30px;
+    }
+    .width50 p {
+        width: 90%;
+        text-align: center;
+        margin: 17px auto 0;
+        font: 500 16px / 20px "Lexend Deca", sans-serif;
+    }.Products_Heading {
+        padding-top: 50px;
+        margin-top: 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Products_Heading h1 {
+        font-size: 2.4rem; /* Adjust font size for smaller screens */
+        text-align: center;
+        margin-right: 20px;
+    }
+    .Products_right{
+        margin: 0px;
+    }
+    .Products{
+        margin: 0px;
+    }
+    
+    .product_first, .product_first_right {
+        width: 100%;
+        height: 420px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+
+    }
+    .productone, .productone_right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .border p{
+        font-size: 16px;
+        color: #545f7e;
+        margin-bottom: 20px;
+    }
+    .producttwo, .producttwo_right {
+        width: 95%;
+        text-align: center;
+    }
+    .pro_img img, .pro_img_right img {
+        margin: 0 auto;
+        height: 160px;
+        width: 160px;
+    }
+    .section_journe{
+        display: none;
+    }
+    #contact {
+        margin-top: -80px;
+        margin-bottom: -30px;
+    }
+    .contact_as35 {
+        width: 45%;
+        height: 410px;
+    }
+    .contact_heading {
+        font: 600 20px / 30px "Lexend Deca", sans-serif;
+        margin-bottom: 10px;
+    }
+    .open {
+        font: 400 14px / 18px "Lexend Deca", sans-serif;
+    }
+    .flex {
+        gap: 5px; /* Add some spacing between icon and text */
+        margin: 20px 40px 10px 0px;
+    }
+    .contacts a{
+        font-size: 14px;
+    }
+    .contactInfo p{
+        font-size: 14px;
+    }
+    .contactInfo {
+        color: #ffffff;
+        font: 500 12px / 15px "Lexend Deca", sans-serif;
+    }
+    .contact_as65{
+        width: 55%;
+        height: 410px;
+    }
+    .contactHeading {
+        font: 500 20px / 20px "Lexend Deca", sans-serif;
+        margin-bottom: 20px;
+    }
+    .formName {
+        font: 500 14px / 20px "Lexend Deca", sans-serif;
+    }
+    .newFormInput {
+        font: 500 17px / 20px "Lexend Deca", sans-serif;
+        border-bottom: 1px solid rgb(216, 214, 214);
+    }
+    .newFormMessage {
+        font: 500 17px / 20px "Lexend Deca", sans-serif;
+        border-bottom: 1px solid rgb(216, 214, 214);
+        height: 100px;
+    }
+    .footer{
+        height:480px;
+        width: 100%;
+    }
+    .footer .main-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 40px 15px;
+        gap: 20px;
+    }
+    .footer .main-footer .footer-links > p {
+        padding: 5px 0;
+    }
+    .social-links{
+        margin-top: 0px;
+    }
+    .footer-links{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .footer .endbar {
+        height: 70px;
+        flex-direction: column;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 480px){
+    .logo img {
+        max-width: 210px; /* Smaller logo for medium screens */
+        max-height: 42px;
+        margin-left: 0px;
+    }
+    .open {
+        font: 400 13.5px / 17px "Lexend Deca", sans-serif;
+    }
+    .flex {
+        gap: 3.5px; /* Add some spacing between icon and text */
+        margin: 15px 0px 5px -5px;
+    }
+    .contacts a{
+        font-size: 12px;
+    }
+    .contactInfo p{
+        font-size: 12px;
+    }
+    .contactIcon span.round {
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 5px 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home {
+        display: none; /* Hide menu on small screens */
+    }
+    .border p{
+        font-size: 14px;
+        color: #545f7e;
+        margin-bottom: 15px; 
+    }
+    .endbar span{
+        font-size: 1.1rem;
+    }
+    .endbar p{
+        font-size: 1.1rem;
+
+    }
+}
